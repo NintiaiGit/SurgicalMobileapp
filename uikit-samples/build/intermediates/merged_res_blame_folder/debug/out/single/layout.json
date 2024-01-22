@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\view_custom_tab.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\view_custom_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\activity_patient_reg.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\activity_patient_reg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\preoperationnote.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\preoperationnote.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\activity_notification_main.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\activity_notification_main.xml"
+    },
+    {
+        "merged": "com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:/layout/preoperationnote.xml",
+        "source": "com.sendbird.uikit.samples.uikit-samples-main-39:/layout/preoperationnote.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\view_custom_menu_icon_button.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\view_custom_menu_icon_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\item_patient.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\item_patient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\view_channel_list_item_preview.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\view_channel_list_item_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\view_customization_list_item.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\view_customization_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\activity_notification_home.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\activity_notification_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\fragment_sample_settings.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\fragment_sample_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\view_channel_layout_sample.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\view_channel_layout_sample.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\activity_ai_chatbot_home.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\activity_ai_chatbot_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\activity_open_channel_main.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\activity_open_channel_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\activity_customization_home.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\activity_customization_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\view_customization_list_header.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\view_customization_list_header.xml"
+    },
+    {
+        "merged": "com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:/layout/operationnote.xml",
+        "source": "com.sendbird.uikit.samples.uikit-samples-main-39:/layout/operationnote.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\view_entry_button.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\view_entry_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\view_live_stream_list_item.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\view_live_stream_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\activity_live_stream.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\activity_live_stream.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\view_custom_message_others.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\view_custom_message_others.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\activity_group_channel_main.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\activity_group_channel_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\view_custom_header.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\view_custom_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\view_custom_menu_text_button.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\view_custom_menu_text_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\activity_select_service.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\activity_select_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\view_select_user.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\view_select_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\patient_home.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\patient_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-36:\\layout\\view_custom_message_me.xml",
+        "source": "C:\\Users\\Anish\\.gradle\\daemon\\8.2\\com.sendbird.uikit.samples.uikit-samples-main-39:\\layout\\view_custom_message_me.xml"
+    }
+]

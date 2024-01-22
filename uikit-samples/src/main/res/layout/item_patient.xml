@@ -1,0 +1,41 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/sb_size_16">
+
+    <!-- Use your custom EntryButton -->
+    <com.sendbird.uikit.samples.common.widgets.EntryButton
+        android:id="@+id/patientEntryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Nested RelativeLayout to contain both the TextView and the EntryButton -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- TextView for the label (e.g., "Submit") -->
+            <TextView
+                android:id="@+id/submitLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_centerInParent="true"
+                android:textSize="18sp"/> <!-- Adjust the font size as needed -->
+
+            <!-- Nested TextView inside EntryButton -->
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Text Here"
+                android:layout_below="@id/submitLabelTextView"
+                android:layout_centerHorizontal="true"
+                android:textSize="18sp"/>
+
+        </RelativeLayout>
+
+    </com.sendbird.uikit.samples.common.widgets.EntryButton>
+
+</RelativeLayout>

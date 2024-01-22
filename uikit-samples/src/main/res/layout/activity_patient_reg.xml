@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_50"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/sb_size_24"
+        android:paddingRight="@dimen/sb_size_24">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/registerHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/sb_size_24"
+            android:textSize="@dimen/sb_text_size_24"
+            android:textStyle="bold"
+            android:textColor="@color/onlight_01"
+            android:text="Register patients here"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/nameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sb_size_56"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/sb_size_16"
+            android:paddingRight="@dimen/sb_size_16"
+            android:layout_marginTop="@dimen/sb_size_24"
+            app:boxStrokeColor="@color/primary_300"
+            android:background="@drawable/selector_edittext_background_with_focusable"
+            app:hintTextColor="@color/primary_300"
+            app:boxBackgroundMode="outline"
+            app:layout_constraintTop_toBottomOf="@id/registerHeading"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/ageLayout"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/shape_rect_transparent"
+                android:imeOptions="actionNext|flagNoExtractUi"
+                android:inputType="text"
+                android:hint="Name"
+                android:maxLines="1"
+                android:textCursorDrawable="@drawable/shape_cursor_drawable"
+                android:textSize="@dimen/sb_text_size_16"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Add similar layouts for Age, Gender, Medical Record Number, Date and Time of Surgery, Procedure Details -->
+
+        <!-- Age -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ageLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sb_size_56"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/sb_size_16"
+            android:paddingRight="@dimen/sb_size_16"
+            app:hintTextColor="@color/primary_300"
+            app:boxBackgroundMode="outline"
+            android:background="@drawable/selector_edittext_background_with_focusable"
+            android:layout_marginTop="@dimen/sb_size_16"
+            app:layout_constraintTop_toBottomOf="@id/nameLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/genderLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_rect_transparent"
+                android:maxLines="1"
+                android:textSize="@dimen/sb_text_size_16"
+                android:hint="Age"
+                android:textCursorDrawable="@drawable/shape_cursor_drawable"
+                android:imeOptions="actionNext|flagNoExtractUi"
+                android:inputType="number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Add this block inside the ConstraintLayout -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/genderLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sb_size_56"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/sb_size_16"
+            android:paddingRight="@dimen/sb_size_16"
+            app:hintTextColor="@color/primary_300"
+            app:boxBackgroundMode="outline"
+            android:background="@drawable/selector_edittext_background_with_focusable"
+            android:layout_marginTop="@dimen/sb_size_16"
+            app:layout_constraintTop_toBottomOf="@id/ageLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/medicalRecordNumberLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_rect_transparent"
+                android:maxLines="1"
+                android:textSize="@dimen/sb_text_size_16"
+                android:hint="Gender"
+                android:textCursorDrawable="@drawable/shape_cursor_drawable"
+                android:imeOptions="actionNext|flagNoExtractUi"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!-- Add this block inside the ConstraintLayout -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/medicalRecordNumberLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sb_size_56"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/sb_size_16"
+            android:paddingRight="@dimen/sb_size_16"
+            app:hintTextColor="@color/primary_300"
+            app:boxBackgroundMode="outline"
+            android:background="@drawable/selector_edittext_background_with_focusable"
+            android:layout_marginTop="@dimen/sb_size_16"
+            app:layout_constraintTop_toBottomOf="@id/genderLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/dateAndTimeLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/medicalRecordNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_rect_transparent"
+                android:maxLines="1"
+                android:textSize="@dimen/sb_text_size_16"
+                android:hint="Medical Record Number"
+                android:textCursorDrawable="@drawable/shape_cursor_drawable"
+                android:imeOptions="actionNext|flagNoExtractUi"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!-- Add this block inside the ConstraintLayout -->
+        <LinearLayout
+            android:id="@+id/dateAndTimeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/sb_size_16"
+            app:layout_constraintTop_toBottomOf="@id/medicalRecordNumberLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/procedureDetailsLayout">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sb_size_56"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/sb_size_16"
+                android:paddingRight="@dimen/sb_size_16"
+                app:hintTextColor="@color/primary_300"
+                app:boxBackgroundMode="outline"
+                android:background="@drawable/selector_edittext_background_with_focusable">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/dateOfSurgery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_rect_transparent"
+                    android:maxLines="1"
+                    android:textSize="@dimen/sb_text_size_16"
+                    android:hint="Date of Surgery"
+                    android:textCursorDrawable="@drawable/shape_cursor_drawable"
+                    android:imeOptions="actionNext|flagNoExtractUi"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sb_size_56"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/sb_size_16"
+                android:paddingRight="@dimen/sb_size_16"
+                app:hintTextColor="@color/primary_300"
+                app:boxBackgroundMode="outline"
+                android:background="@drawable/selector_edittext_background_with_focusable">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/timeOfSurgery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_rect_transparent"
+                    android:maxLines="1"
+                    android:textSize="@dimen/sb_text_size_16"
+                    android:hint="Time of Surgery"
+                    android:textCursorDrawable="@drawable/shape_cursor_drawable"
+                    android:imeOptions="actionNext|flagNoExtractUi"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+
+        <!-- Add this block inside the ConstraintLayout -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/procedureDetailsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sb_size_56"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/sb_size_16"
+            android:paddingRight="@dimen/sb_size_16"
+            app:hintTextColor="@color/primary_300"
+            app:boxBackgroundMode="outline"
+            android:background="@drawable/selector_edittext_background_with_focusable"
+            android:layout_marginTop="@dimen/sb_size_16"
+            app:layout_constraintTop_toBottomOf="@id/dateAndTimeLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/submitButton">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/procedureDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_rect_transparent"
+                android:maxLines="1"
+                android:textSize="@dimen/sb_text_size_16"
+                android:hint="Procedure Details"
+                android:textCursorDrawable="@drawable/shape_cursor_drawable"
+                android:imeOptions="actionDone|flagNoExtractUi"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!-- Add this block inside the ConstraintLayout -->
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            app:layout_constraintTop_toBottomOf="@id/procedureDetailsLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+
+
+
+        <!-- Gender -->
+        <!-- Add similar layout for Gender -->
+
+        <!-- Medical Record Number -->
+        <!-- Add similar layout for Medical Record Number -->
+
+        <!-- Date and Time of Surgery -->
+        <!-- Add similar layout for Date and Time of Surgery -->
+
+        <!-- Procedure Details -->
+        <!-- Add similar layout for Procedure Details -->
+
+        <!-- Add a Save Button and other UI elements as needed -->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sendbird.uikit.samples"
+    android:versionCode="1"
+    android:versionName="3.12.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="33" />
+
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- Required to maintain app compatibility. -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <queries>
+
+        <!-- Browser -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <data android:scheme="http" />
+        </intent>
+        <!-- Camera -->
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+        <!-- Gallery -->
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.CHOOSER" />
+        </intent>
+    </queries>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.sendbird.uikit.samples.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.sendbird.uikit.samples.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:name="com.sendbird.uikit.samples.BaseApplication"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="true"
+        android:icon="@drawable/logo_sendbird"
+        android:label="Ninti.AI"
+        android:resizeableActivity="false"
+        android:roundIcon="@drawable/logo_sendbird"
+        android:supportsRtl="false"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.sendbird.uikit.samples.common.SplashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- common activities -->
+        <activity
+            android:name="com.sendbird.uikit.samples.common.SelectServiceActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.sendbird.uikit.samples.common.LoginActivity"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <!-- Basic activities -->
+        <activity
+            android:name="com.sendbird.uikit.samples.basic.GroupChannelMainActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.sendbird.uikit.samples.basic.openchannel.OpenChannelMainActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.sendbird.uikit.samples.basic.openchannel.PatientRegistrationActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.sendbird.uikit.samples.basic.BasicHomeActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.sendbird.uikit.samples.basic.openchannel.livestream.LiveStreamActivity"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity android:name="com.sendbird.uikit.samples.basic.openchannel.PatientHome" >
+
+            <!-- Include any intent filters or other necessary configurations -->
+        </activity>
+        <activity android:name="com.sendbird.uikit.samples.basic.openchannel.livestream.PreoperationNoteActivity" >
+
+            <!-- Include any intent filters or other necessary configurations -->
+        </activity>
+        <activity android:name="com.sendbird.uikit.samples.basic.openchannel.livestream.operationnote" >
+
+            <!-- Include any intent filters or other necessary configurations -->
+        </activity>
+
+        <!-- ai chabot activities -->
+        <activity
+            android:name="com.sendbird.uikit.samples.aichatbot.AIChatBotHomeActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTask" />
+
+        <!-- notification activities -->
+        <activity
+            android:name="com.sendbird.uikit.samples.notification.NotificationHomeActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.sendbird.uikit.samples.notification.NotificationMainActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.sendbird.uikit.samples.notification.NotificationLoginActivity"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <!-- customization activities -->
+        <activity
+            android:name="com.sendbird.uikit.samples.customization.CustomizationHomeActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/icon_push_lollipop" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/primary_300" />
+
+        <activity
+            android:name="com.sendbird.uikit.activities.InviteUserActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.MemberListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.ChannelSettingsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.ChannelListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.ChannelActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name="com.sendbird.uikit.activities.CreateChannelActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.PhotoViewActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.ModerationActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.RegisterOperatorActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.OperatorListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.BannedUserListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.MutedMemberListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.OpenChannelSettingsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.ParticipantListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.MessageSearchActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name="com.sendbird.uikit.activities.MessageThreadActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.sendbird.uikit.activities.ChannelPushSettingActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.OpenChannelModerationActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.OpenChannelRegisterOperatorActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.OpenChannelOperatorListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.OpenChannelMutedParticipantListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.OpenChannelBannedUserListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.CreateOpenChannelActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.OpenChannelListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.sendbird.uikit.activities.OpenChannelActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.sendbird.uikit.activities.FeedNotificationChannelActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name="com.sendbird.uikit.activities.ChatNotificationChannelActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+
+        <provider
+            android:name="com.sendbird.uikit.model.SendbirdUIKitFileProvider"
+            android:authorities="com.sendbird.uikit.samples.sendbird.uikit.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/sb_file_paths" />
+        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+        <!-- suppress AndroidDomInspection -->
+        <service
+            android:name="com.google.android.gms.metadata.ModuleDependencies"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+            </intent-filter>
+
+            <meta-data
+                android:name="photopicker_activity:0:required"
+                android:value="" />
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.sendbird.uikit.samples.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+
+        <service
+            android:name="com.sendbird.android.push.SendbirdFirebaseInstanceIDService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.sendbird.android.push.SendbirdFirebaseMessagingService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.sendbird.android.push.SendbirdHmsMessagingService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.sendbird.uikit.samples.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>
