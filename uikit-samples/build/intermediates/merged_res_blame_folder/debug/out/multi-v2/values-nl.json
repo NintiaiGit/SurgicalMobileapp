@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-35:/values-nl/values-nl.xml",
+            "outputFile": "com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-37:/values-nl/values-nl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Anish\\.gradle\\caches\\transforms-3\\6c350b76cfdbcfefb75ded99f6417bd7\\transformed\\core-1.9.0\\res\\values-nl\\values-nl.xml",
@@ -18,6 +18,23 @@
                         "startOffsets": "9745",
                         "endColumns": "100",
                         "endOffsets": "9841"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Anish\\.gradle\\caches\\transforms-3\\eb06f38e1eae45a3cfcc77856c97f5f9\\transformed\\zxing-android-embedded-4.2.0\\res\\values-nl\\values-nl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,312",
+                        "endColumns": "58,46,150,111",
+                        "endOffsets": "109,156,307,419"
+                    },
+                    "to": {
+                        "startLines": "107,108,109,110",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "9846,9905,9952,10103",
+                        "endColumns": "58,46,150,111",
+                        "endOffsets": "9900,9947,10098,10210"
                     }
                 },
                 {

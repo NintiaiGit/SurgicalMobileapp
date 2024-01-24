@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId "com.sendbird.uikit.samples"
-        minSdkVersion 21
+        minSdkVersion 24
         targetSdkVersion 33
         versionCode 1
         versionName UIKIT_VERSION
@@ -49,6 +49,15 @@ dependencies {
     implementation 'com.android.volley:volley:1.2.1'
 
     implementation 'com.google.code.gson:gson:2.8.6'
+
+    implementation 'com.google.zxing:core:3.4.1'
+    implementation 'com.journeyapps:zxing-android-embedded:4.2.0'
+
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+
 
 
 

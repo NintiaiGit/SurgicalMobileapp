@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-35:/values-eu/values-eu.xml",
+            "outputFile": "com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-37:/values-eu/values-eu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Anish\\.gradle\\caches\\transforms-3\\5107174892babd83cae85714866c2f5d\\transformed\\play-services-base-18.0.1\\res\\values-eu\\values.xml",
@@ -35,6 +35,23 @@
                         "startOffsets": "9730",
                         "endColumns": "100",
                         "endOffsets": "9826"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Anish\\.gradle\\caches\\transforms-3\\eb06f38e1eae45a3cfcc77856c97f5f9\\transformed\\zxing-android-embedded-4.2.0\\res\\values-eu\\values-eu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,119,168,316",
+                        "endColumns": "63,48,147,111",
+                        "endOffsets": "114,163,311,423"
+                    },
+                    "to": {
+                        "startLines": "107,108,109,110",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "9831,9895,9944,10092",
+                        "endColumns": "63,48,147,111",
+                        "endOffsets": "9890,9939,10087,10199"
                     }
                 },
                 {

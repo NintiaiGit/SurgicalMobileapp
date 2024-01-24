@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-35:/values-mn/values-mn.xml",
+            "outputFile": "com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-37:/values-mn/values-mn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Anish\\.gradle\\caches\\transforms-3\\6c350b76cfdbcfefb75ded99f6417bd7\\transformed\\core-1.9.0\\res\\values-mn\\values-mn.xml",

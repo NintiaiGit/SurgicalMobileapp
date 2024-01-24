@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-35:/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "com.sendbird.uikit.samples.uikit-samples-mergeDebugResources-37:/values-zh-rHK/values-zh-rHK.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\Anish\\.gradle\\caches\\transforms-3\\eb06f38e1eae45a3cfcc77856c97f5f9\\transformed\\zxing-android-embedded-4.2.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,104,151,244",
+                        "endColumns": "48,46,92,69",
+                        "endOffsets": "99,146,239,309"
+                    },
+                    "to": {
+                        "startLines": "107,108,109,110",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "8589,8638,8685,8778",
+                        "endColumns": "48,46,92,69",
+                        "endOffsets": "8633,8680,8773,8843"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Anish\\.gradle\\caches\\transforms-3\\6c350b76cfdbcfefb75ded99f6417bd7\\transformed\\core-1.9.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
                     "from": {

@@ -5,7 +5,7 @@
 5    android:versionName="3.12.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="21"
+8        android:minSdkVersion="24"
 9        android:targetSdkVersion="33" />
 10
 11    <uses-permission
@@ -75,648 +75,700 @@
 44-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:37:13-68
 44-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:37:21-65
 45        </intent>
-46    </queries>
-47
-48    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-48-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:22:5-79
-48-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:22:22-76
-49    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-49-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:24:5-68
-49-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:24:22-65
-50    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-50-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:26:5-82
-50-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:26:22-79
-51
-52    <permission
-52-->[androidx.core:core:1.9.0] C:\Users\Anish\.gradle\caches\transforms-3\6c350b76cfdbcfefb75ded99f6417bd7\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-53        android:name="com.sendbird.uikit.samples.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-53-->[androidx.core:core:1.9.0] C:\Users\Anish\.gradle\caches\transforms-3\6c350b76cfdbcfefb75ded99f6417bd7\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-54        android:protectionLevel="signature" />
-54-->[androidx.core:core:1.9.0] C:\Users\Anish\.gradle\caches\transforms-3\6c350b76cfdbcfefb75ded99f6417bd7\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-55
-56    <uses-permission android:name="com.sendbird.uikit.samples.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-56-->[androidx.core:core:1.9.0] C:\Users\Anish\.gradle\caches\transforms-3\6c350b76cfdbcfefb75ded99f6417bd7\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-56-->[androidx.core:core:1.9.0] C:\Users\Anish\.gradle\caches\transforms-3\6c350b76cfdbcfefb75ded99f6417bd7\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-57
-58    <application
-58-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:10:5-110:19
-59        android:name="com.sendbird.uikit.samples.BaseApplication"
-59-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:11:9-40
-60        android:allowBackup="false"
-60-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:12:9-36
-61        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-61-->[androidx.core:core:1.9.0] C:\Users\Anish\.gradle\caches\transforms-3\6c350b76cfdbcfefb75ded99f6417bd7\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-62        android:debuggable="true"
-63        android:extractNativeLibs="true"
-64        android:icon="@drawable/logo_sendbird"
-64-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:13:9-47
-65        android:label="Ninti.AI"
-65-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:14:9-33
-66        android:resizeableActivity="false"
-66-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:17:9-43
-67        android:roundIcon="@drawable/logo_sendbird"
-67-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:15:9-52
-68        android:supportsRtl="false"
-68-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:16:9-36
-69        android:testOnly="true"
-70        android:theme="@style/AppTheme" >
-70-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:18:9-40
-71        <activity
-71-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:21:9-27:20
-72            android:name="com.sendbird.uikit.samples.common.SplashActivity"
-72-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:21:19-56
-73            android:exported="true" >
-73-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:22:13-36
-74            <intent-filter>
-74-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:23:13-26:29
-75                <action android:name="android.intent.action.MAIN" />
-75-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:24:17-69
-75-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:24:25-66
+46    </queries> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+47    <uses-feature
+47-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:25:5-27:36
+48        android:name="android.hardware.camera"
+48-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:26:9-47
+49        android:required="false" />
+49-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:27:9-33
+50    <uses-feature
+50-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:28:5-30:36
+51        android:name="android.hardware.camera.front"
+51-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:29:9-53
+52        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+52-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:30:9-33
+53    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+54    <uses-feature
+54-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:33:5-35:36
+55        android:name="android.hardware.camera.autofocus"
+55-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:34:9-57
+56        android:required="false" />
+56-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:35:9-33
+57    <uses-feature
+57-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:36:5-38:36
+58        android:name="android.hardware.camera.flash"
+58-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:37:9-53
+59        android:required="false" />
+59-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:38:9-33
+60    <uses-feature
+60-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:39:5-41:36
+61        android:name="android.hardware.screen.landscape"
+61-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:40:9-57
+62        android:required="false" />
+62-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:41:9-33
+63    <uses-feature
+63-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:42:5-44:36
+64        android:name="android.hardware.wifi"
+64-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:43:9-45
+65        android:required="false" />
+65-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:44:9-33
+66
+67    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+67-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:22:5-79
+67-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:22:22-76
+68    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+68-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:24:5-68
+68-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:24:22-65
+69    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+69-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:26:5-82
+69-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:26:22-79
+70
+71    <permission
+71-->[androidx.core:core:1.9.0] C:\Users\Anish\.gradle\caches\transforms-3\6c350b76cfdbcfefb75ded99f6417bd7\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+72        android:name="com.sendbird.uikit.samples.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+72-->[androidx.core:core:1.9.0] C:\Users\Anish\.gradle\caches\transforms-3\6c350b76cfdbcfefb75ded99f6417bd7\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+73        android:protectionLevel="signature" />
+73-->[androidx.core:core:1.9.0] C:\Users\Anish\.gradle\caches\transforms-3\6c350b76cfdbcfefb75ded99f6417bd7\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+74
+75    <uses-permission android:name="com.sendbird.uikit.samples.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+75-->[androidx.core:core:1.9.0] C:\Users\Anish\.gradle\caches\transforms-3\6c350b76cfdbcfefb75ded99f6417bd7\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+75-->[androidx.core:core:1.9.0] C:\Users\Anish\.gradle\caches\transforms-3\6c350b76cfdbcfefb75ded99f6417bd7\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 76
-77                <category android:name="android.intent.category.LAUNCHER" />
-77-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:25:17-77
-77-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:25:27-74
-78            </intent-filter>
-79        </activity>
-80
-81        <!-- common activities -->
-82        <activity
-82-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:30:9-32:47
-83            android:name="com.sendbird.uikit.samples.common.SelectServiceActivity"
-83-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:31:13-57
-84            android:launchMode="singleTask" />
-84-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:32:13-44
-85        <activity
-85-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:33:9-36:70
-86            android:name="com.sendbird.uikit.samples.common.LoginActivity"
-86-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:34:13-49
-87            android:launchMode="singleTop"
-87-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:35:13-43
-88            android:windowSoftInputMode="adjustResize|stateHidden" />
-88-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:36:13-67
-89
-90        <!-- Basic activities -->
-91        <activity
-91-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:39:9-42:47
-92            android:name="com.sendbird.uikit.samples.basic.GroupChannelMainActivity"
-92-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:40:13-59
-93            android:configChanges="orientation|screenSize"
-93-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:41:13-59
-94            android:launchMode="singleTask" />
-94-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:42:13-44
-95        <activity
-95-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:43:9-46:47
-96            android:name="com.sendbird.uikit.samples.basic.openchannel.OpenChannelMainActivity"
-96-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:44:13-70
-97            android:configChanges="orientation|screenSize"
-97-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:45:13-59
-98            android:launchMode="singleTask" />
-98-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:46:13-44
-99        <activity
-99-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:48:9-51:47
-100            android:name="com.sendbird.uikit.samples.basic.openchannel.PatientRegistrationActivity"
-100-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:49:13-74
-101            android:configChanges="orientation|screenSize"
-101-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:50:13-59
-102            android:launchMode="singleTask" />
-102-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:51:13-44
-103        <activity
-103-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:55:9-57:47
-104            android:name="com.sendbird.uikit.samples.basic.BasicHomeActivity"
-104-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:56:13-52
-105            android:launchMode="singleTask" />
-105-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:57:13-44
-106        <activity
-106-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:58:9-61:69
-107            android:name="com.sendbird.uikit.samples.basic.openchannel.livestream.LiveStreamActivity"
-107-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:59:13-76
-108            android:launchMode="singleTop"
-108-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:60:13-43
-109            android:windowSoftInputMode="adjustResize|stateHidden" />
-109-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:61:13-67
-110        <activity android:name="com.sendbird.uikit.samples.basic.openchannel.PatientHome" >
-110-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:63:9-65:20
-110-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:63:19-64
-111
-112            <!-- Include any intent filters or other necessary configurations -->
-113        </activity>
-114        <activity android:name="com.sendbird.uikit.samples.basic.openchannel.livestream.PreoperationNoteActivity" >
-114-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:67:9-69:20
-114-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:67:19-88
-115
-116            <!-- Include any intent filters or other necessary configurations -->
-117        </activity>
-118        <activity android:name="com.sendbird.uikit.samples.basic.openchannel.livestream.operationnote" >
-118-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:72:9-74:20
-118-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:72:19-77
-119
-120            <!-- Include any intent filters or other necessary configurations -->
-121        </activity>
-122
-123        <!-- ai chabot activities -->
-124        <activity
-124-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:79:9-82:47
-125            android:name="com.sendbird.uikit.samples.aichatbot.AIChatBotHomeActivity"
-125-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:80:13-60
-126            android:configChanges="orientation|screenSize|keyboardHidden"
-126-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:81:13-74
-127            android:launchMode="singleTask" />
-127-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:82:13-44
-128
-129        <!-- notification activities -->
-130        <activity
-130-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:85:9-88:46
-131            android:name="com.sendbird.uikit.samples.notification.NotificationHomeActivity"
-131-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:86:13-66
-132            android:configChanges="orientation|screenSize|keyboardHidden"
-132-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:87:13-74
-133            android:launchMode="singleTask" />
-133-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:88:13-44
-134        <activity
-134-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:89:9-92:47
-135            android:name="com.sendbird.uikit.samples.notification.NotificationMainActivity"
-135-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:90:13-66
-136            android:configChanges="orientation|screenSize"
-136-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:91:13-59
-137            android:launchMode="singleTask" />
-137-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:92:13-44
-138        <activity
-138-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:93:9-96:70
-139            android:name="com.sendbird.uikit.samples.notification.NotificationLoginActivity"
-139-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:94:13-67
-140            android:launchMode="singleTop"
-140-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:95:13-43
-141            android:windowSoftInputMode="adjustResize|stateHidden" />
-141-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:96:13-67
-142
-143        <!-- customization activities -->
-144        <activity
-144-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:99:9-102:47
-145            android:name="com.sendbird.uikit.samples.customization.CustomizationHomeActivity"
-145-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:100:13-68
-146            android:configChanges="orientation|screenSize"
-146-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:101:13-59
-147            android:launchMode="singleTask" />
-147-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:102:13-44
-148
-149        <meta-data
-149-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:104:9-106:63
-150            android:name="com.google.firebase.messaging.default_notification_icon"
-150-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:105:13-83
-151            android:resource="@drawable/icon_push_lollipop" />
-151-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:106:13-60
-152        <meta-data
-152-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:107:9-109:53
-153            android:name="com.google.firebase.messaging.default_notification_color"
-153-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:108:13-84
-154            android:resource="@color/primary_300" />
-154-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:109:13-50
-155
-156        <activity
-156-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:42:9-45:46
-157            android:name="com.sendbird.uikit.activities.InviteUserActivity"
-157-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:43:13-76
-158            android:configChanges="orientation|screenSize|keyboardHidden"
-158-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:44:13-74
-159            android:launchMode="singleTop" />
-159-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:45:13-43
-160        <activity
-160-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:46:9-49:46
-161            android:name="com.sendbird.uikit.activities.MemberListActivity"
-161-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:47:13-76
-162            android:configChanges="orientation|screenSize|keyboardHidden"
-162-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:48:13-74
-163            android:launchMode="singleTop" />
-163-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:49:13-43
-164        <activity
-164-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:50:9-53:46
-165            android:name="com.sendbird.uikit.activities.ChannelSettingsActivity"
-165-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:51:13-81
-166            android:configChanges="orientation|screenSize|keyboardHidden"
-166-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:52:13-74
-167            android:launchMode="singleTop" />
-167-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:53:13-43
-168        <activity
-168-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:54:9-57:46
-169            android:name="com.sendbird.uikit.activities.ChannelListActivity"
-169-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:55:13-77
-170            android:configChanges="orientation|screenSize|keyboardHidden"
-170-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:56:13-74
-171            android:launchMode="singleTop" />
-171-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:57:13-43
-172        <activity
-172-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:58:9-61:76
-173            android:name="com.sendbird.uikit.activities.ChannelActivity"
-173-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:59:13-73
-174            android:configChanges="orientation|screenSize|keyboardHidden"
-174-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:60:13-74
-175            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-175-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:61:13-73
-176        <activity
-176-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:62:9-65:46
-177            android:name="com.sendbird.uikit.activities.CreateChannelActivity"
-177-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:63:13-79
-178            android:configChanges="orientation|screenSize|keyboardHidden"
-178-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:64:13-74
-179            android:launchMode="singleTop" />
-179-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:65:13-43
-180        <activity
-180-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:66:9-69:46
-181            android:name="com.sendbird.uikit.activities.PhotoViewActivity"
-181-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:67:13-75
-182            android:configChanges="orientation|screenSize|keyboardHidden"
-182-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:68:13-74
-183            android:launchMode="singleTop" />
-183-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:69:13-43
-184        <activity
-184-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:70:9-73:46
-185            android:name="com.sendbird.uikit.activities.ModerationActivity"
-185-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:71:13-76
-186            android:configChanges="orientation|screenSize|keyboardHidden"
-186-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:72:13-74
-187            android:launchMode="singleTop" />
-187-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:73:13-43
-188        <activity
-188-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:74:9-77:46
-189            android:name="com.sendbird.uikit.activities.RegisterOperatorActivity"
-189-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:75:13-82
-190            android:configChanges="orientation|screenSize|keyboardHidden"
-190-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:76:13-74
-191            android:launchMode="singleTop" />
-191-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:77:13-43
-192        <activity
-192-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:78:9-81:46
-193            android:name="com.sendbird.uikit.activities.OperatorListActivity"
-193-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:79:13-78
-194            android:configChanges="orientation|screenSize|keyboardHidden"
-194-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:80:13-74
-195            android:launchMode="singleTop" />
-195-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:81:13-43
-196        <activity
-196-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:82:9-85:46
-197            android:name="com.sendbird.uikit.activities.BannedUserListActivity"
-197-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:83:13-80
-198            android:configChanges="orientation|screenSize|keyboardHidden"
-198-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:84:13-74
-199            android:launchMode="singleTop" />
-199-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:85:13-43
-200        <activity
-200-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:86:9-89:46
-201            android:name="com.sendbird.uikit.activities.MutedMemberListActivity"
-201-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:87:13-81
-202            android:configChanges="orientation|screenSize|keyboardHidden"
-202-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:88:13-74
-203            android:launchMode="singleTop" />
-203-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:89:13-43
-204        <activity
-204-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:90:9-93:46
-205            android:name="com.sendbird.uikit.activities.OpenChannelSettingsActivity"
-205-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:91:13-85
-206            android:configChanges="orientation|screenSize|keyboardHidden"
-206-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:92:13-74
-207            android:launchMode="singleTop" />
-207-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:93:13-43
-208        <activity
-208-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:94:9-97:46
-209            android:name="com.sendbird.uikit.activities.ParticipantListActivity"
-209-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:95:13-81
-210            android:configChanges="orientation|screenSize|keyboardHidden"
-210-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:96:13-74
-211            android:launchMode="singleTop" />
-211-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:97:13-43
-212        <activity
-212-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:98:9-102:60
-213            android:name="com.sendbird.uikit.activities.MessageSearchActivity"
-213-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:99:13-79
-214            android:configChanges="orientation|screenSize"
-214-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:100:13-59
-215            android:launchMode="singleTop"
-215-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:101:13-43
-216            android:windowSoftInputMode="stateUnchanged" />
-216-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:102:13-57
-217        <activity
-217-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:103:9-107:70
-218            android:name="com.sendbird.uikit.activities.MessageThreadActivity"
-218-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:104:13-79
-219            android:configChanges="orientation|screenSize"
-219-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:105:13-59
-220            android:launchMode="singleTop"
-220-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:106:13-43
-221            android:windowSoftInputMode="adjustResize|stateHidden" />
-221-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:107:13-67
-222        <activity
-222-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:108:9-111:46
-223            android:name="com.sendbird.uikit.activities.ChannelPushSettingActivity"
-223-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:109:13-84
-224            android:configChanges="orientation|screenSize|keyboardHidden"
-224-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:110:13-74
-225            android:launchMode="singleTop" />
-225-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:111:13-43
-226        <activity
-226-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:112:9-115:46
-227            android:name="com.sendbird.uikit.activities.OpenChannelModerationActivity"
-227-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:113:13-87
-228            android:configChanges="orientation|screenSize|keyboardHidden"
-228-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:114:13-74
-229            android:launchMode="singleTop" />
-229-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:115:13-43
-230        <activity
-230-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:116:9-119:46
-231            android:name="com.sendbird.uikit.activities.OpenChannelRegisterOperatorActivity"
-231-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:117:13-93
-232            android:configChanges="orientation|screenSize|keyboardHidden"
-232-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:118:13-74
-233            android:launchMode="singleTop" />
-233-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:119:13-43
-234        <activity
-234-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:120:9-123:46
-235            android:name="com.sendbird.uikit.activities.OpenChannelOperatorListActivity"
-235-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:121:13-89
-236            android:configChanges="orientation|screenSize|keyboardHidden"
-236-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:122:13-74
-237            android:launchMode="singleTop" />
-237-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:123:13-43
-238        <activity
-238-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:124:9-127:46
-239            android:name="com.sendbird.uikit.activities.OpenChannelMutedParticipantListActivity"
-239-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:125:13-97
-240            android:configChanges="orientation|screenSize|keyboardHidden"
-240-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:126:13-74
-241            android:launchMode="singleTop" />
-241-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:127:13-43
-242        <activity
-242-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:128:9-131:46
-243            android:name="com.sendbird.uikit.activities.OpenChannelBannedUserListActivity"
-243-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:129:13-91
-244            android:configChanges="orientation|screenSize|keyboardHidden"
-244-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:130:13-74
-245            android:launchMode="singleTop" />
-245-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:131:13-43
-246        <activity
-246-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:132:9-135:46
-247            android:name="com.sendbird.uikit.activities.CreateOpenChannelActivity"
-247-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:133:13-83
-248            android:configChanges="orientation|screenSize|keyboardHidden"
-248-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:134:13-74
-249            android:launchMode="singleTop" />
-249-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:135:13-43
-250        <activity
-250-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:136:9-139:46
-251            android:name="com.sendbird.uikit.activities.OpenChannelListActivity"
-251-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:137:13-81
-252            android:configChanges="orientation|screenSize|keyboardHidden"
-252-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:138:13-74
-253            android:launchMode="singleTop" />
-253-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:139:13-43
-254        <activity
-254-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:140:9-143:70
-255            android:name="com.sendbird.uikit.activities.OpenChannelActivity"
-255-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:141:13-77
-256            android:configChanges="orientation|screenSize|keyboardHidden"
-256-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:142:13-74
-257            android:windowSoftInputMode="adjustResize|stateHidden" />
-257-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:143:13-67
-258        <activity
-258-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:144:9-147:76
-259            android:name="com.sendbird.uikit.activities.FeedNotificationChannelActivity"
-259-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:145:13-89
-260            android:configChanges="orientation|screenSize|keyboardHidden"
-260-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:146:13-74
-261            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-261-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:147:13-73
-262        <activity
-262-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:148:9-151:76
-263            android:name="com.sendbird.uikit.activities.ChatNotificationChannelActivity"
-263-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:149:13-89
-264            android:configChanges="orientation|screenSize|keyboardHidden"
-264-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:150:13-74
-265            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-265-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:151:13-73
-266
-267        <provider
-267-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:153:9-161:20
-268            android:name="com.sendbird.uikit.model.SendbirdUIKitFileProvider"
-268-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:154:13-78
-269            android:authorities="com.sendbird.uikit.samples.sendbird.uikit.provider"
-269-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:155:13-75
-270            android:exported="false"
-270-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:156:13-37
-271            android:grantUriPermissions="true" >
-271-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:157:13-47
-272            <meta-data
-272-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:158:13-160:57
-273                android:name="android.support.FILE_PROVIDER_PATHS"
-273-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:159:17-67
-274                android:resource="@xml/sb_file_paths" />
-274-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:160:17-54
-275        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
-276        <!-- suppress AndroidDomInspection -->
-277        <service
-277-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:165:9-177:19
-278            android:name="com.google.android.gms.metadata.ModuleDependencies"
-278-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:166:13-78
-279            android:enabled="false"
-279-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:167:13-36
-280            android:exported="false" >
-280-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:168:13-37
-281            <intent-filter>
-281-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:170:13-172:29
-282                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
-282-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:171:17-94
-282-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:171:25-91
-283            </intent-filter>
-284
-285            <meta-data
-285-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:174:13-176:36
-286                android:name="photopicker_activity:0:required"
-286-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:175:17-63
-287                android:value="" />
-287-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:176:17-33
-288        </service>
-289
-290        <receiver
-290-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:29:9-36:20
-291            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-291-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:30:13-78
-292            android:exported="true"
-292-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:31:13-36
-293            android:permission="com.google.android.c2dm.permission.SEND" >
-293-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:32:13-73
-294            <intent-filter>
-294-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:33:13-35:29
-295                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-295-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:34:17-81
-295-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:34:25-78
-296            </intent-filter>
-297        </receiver>
-298        <!--
-299             FirebaseMessagingService performs security checks at runtime,
-300             but set to not exported to explicitly avoid allowing another app to call it.
-301        -->
-302        <service
-302-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:42:9-49:19
-303            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-303-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:43:13-82
-304            android:directBootAware="true"
-304-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:44:13-43
-305            android:exported="false" >
-305-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:45:13-37
-306            <intent-filter android:priority="-500" >
-306-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:46:13-48:29
-306-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:46:28-51
-307                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-307-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:47:17-78
-307-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:47:25-75
-308            </intent-filter>
-309        </service>
-310        <service
-310-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:50:9-56:19
-311            android:name="com.google.firebase.components.ComponentDiscoveryService"
-311-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:51:13-84
-312            android:directBootAware="true"
-312-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Anish\.gradle\caches\transforms-3\b90254bace91f17ae653d1385c52fe31\transformed\firebase-common-20.3.3\AndroidManifest.xml:34:13-43
-313            android:exported="false" >
-313-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:52:13-37
-314            <meta-data
-314-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:53:13-55:85
-315                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-315-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:54:17-119
-316                android:value="com.google.firebase.components.ComponentRegistrar" />
-316-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:55:17-82
-317            <meta-data
-317-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Anish\.gradle\caches\transforms-3\abbb6a3cfd5bcd12ec0e25b641c65db0\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
-318                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-318-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Anish\.gradle\caches\transforms-3\abbb6a3cfd5bcd12ec0e25b641c65db0\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
-319                android:value="com.google.firebase.components.ComponentRegistrar" />
-319-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Anish\.gradle\caches\transforms-3\abbb6a3cfd5bcd12ec0e25b641c65db0\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
-320            <meta-data
-320-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\Anish\.gradle\caches\transforms-3\a7c016a45afbb8a6c32d26e23444428a\transformed\firebase-installations-17.1.4\AndroidManifest.xml:15:13-17:85
-321                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-321-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\Anish\.gradle\caches\transforms-3\a7c016a45afbb8a6c32d26e23444428a\transformed\firebase-installations-17.1.4\AndroidManifest.xml:16:17-127
-322                android:value="com.google.firebase.components.ComponentRegistrar" />
-322-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\Anish\.gradle\caches\transforms-3\a7c016a45afbb8a6c32d26e23444428a\transformed\firebase-installations-17.1.4\AndroidManifest.xml:17:17-82
-323        </service>
-324
-325        <activity
-325-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Anish\.gradle\caches\transforms-3\5107174892babd83cae85714866c2f5d\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-326            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-326-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Anish\.gradle\caches\transforms-3\5107174892babd83cae85714866c2f5d\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-327            android:exported="false"
-327-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Anish\.gradle\caches\transforms-3\5107174892babd83cae85714866c2f5d\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-328            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-328-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Anish\.gradle\caches\transforms-3\5107174892babd83cae85714866c2f5d\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-329
-330        <provider
-330-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Anish\.gradle\caches\transforms-3\b90254bace91f17ae653d1385c52fe31\transformed\firebase-common-20.3.3\AndroidManifest.xml:25:9-30:39
-331            android:name="com.google.firebase.provider.FirebaseInitProvider"
-331-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Anish\.gradle\caches\transforms-3\b90254bace91f17ae653d1385c52fe31\transformed\firebase-common-20.3.3\AndroidManifest.xml:26:13-77
-332            android:authorities="com.sendbird.uikit.samples.firebaseinitprovider"
-332-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Anish\.gradle\caches\transforms-3\b90254bace91f17ae653d1385c52fe31\transformed\firebase-common-20.3.3\AndroidManifest.xml:27:13-72
-333            android:directBootAware="true"
-333-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Anish\.gradle\caches\transforms-3\b90254bace91f17ae653d1385c52fe31\transformed\firebase-common-20.3.3\AndroidManifest.xml:28:13-43
-334            android:exported="false"
-334-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Anish\.gradle\caches\transforms-3\b90254bace91f17ae653d1385c52fe31\transformed\firebase-common-20.3.3\AndroidManifest.xml:29:13-37
-335            android:initOrder="100" />
-335-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Anish\.gradle\caches\transforms-3\b90254bace91f17ae653d1385c52fe31\transformed\firebase-common-20.3.3\AndroidManifest.xml:30:13-36
-336
-337        <meta-data
-337-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Anish\.gradle\caches\transforms-3\6084a1e00430d5c5ea71ced5ffcf008a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-338            android:name="com.google.android.gms.version"
-338-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Anish\.gradle\caches\transforms-3\6084a1e00430d5c5ea71ced5ffcf008a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-339            android:value="@integer/google_play_services_version" />
-339-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Anish\.gradle\caches\transforms-3\6084a1e00430d5c5ea71ced5ffcf008a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-340
-341        <service
-341-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\3f7657a02522f33f65d8e86c6e63acc5\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
-342            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-342-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\3f7657a02522f33f65d8e86c6e63acc5\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
-343            android:exported="false" >
-343-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\3f7657a02522f33f65d8e86c6e63acc5\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+77    <application
+77-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:10:5-110:19
+78        android:name="com.sendbird.uikit.samples.BaseApplication"
+78-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:11:9-40
+79        android:allowBackup="false"
+79-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:12:9-36
+80        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+80-->[androidx.core:core:1.9.0] C:\Users\Anish\.gradle\caches\transforms-3\6c350b76cfdbcfefb75ded99f6417bd7\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+81        android:debuggable="true"
+82        android:extractNativeLibs="false"
+83        android:icon="@drawable/logo_sendbird"
+83-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:13:9-47
+84        android:label="Ninti.AI"
+84-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:14:9-33
+85        android:resizeableActivity="false"
+85-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:17:9-43
+86        android:roundIcon="@drawable/logo_sendbird"
+86-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:15:9-52
+87        android:supportsRtl="false"
+87-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:16:9-36
+88        android:testOnly="true"
+89        android:theme="@style/AppTheme" >
+89-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:18:9-40
+90        <activity
+90-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:21:9-27:20
+91            android:name="com.sendbird.uikit.samples.common.SplashActivity"
+91-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:21:19-56
+92            android:exported="true" >
+92-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:22:13-36
+93            <intent-filter>
+93-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:23:13-26:29
+94                <action android:name="android.intent.action.MAIN" />
+94-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:24:17-69
+94-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:24:25-66
+95
+96                <category android:name="android.intent.category.LAUNCHER" />
+96-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:25:17-77
+96-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:25:27-74
+97            </intent-filter>
+98        </activity>
+99
+100        <!-- common activities -->
+101        <activity
+101-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:30:9-32:47
+102            android:name="com.sendbird.uikit.samples.common.SelectServiceActivity"
+102-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:31:13-57
+103            android:launchMode="singleTask" />
+103-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:32:13-44
+104        <activity
+104-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:33:9-36:70
+105            android:name="com.sendbird.uikit.samples.common.LoginActivity"
+105-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:34:13-49
+106            android:launchMode="singleTop"
+106-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:35:13-43
+107            android:windowSoftInputMode="adjustResize|stateHidden" />
+107-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:36:13-67
+108
+109        <!-- Basic activities -->
+110        <activity
+110-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:39:9-42:47
+111            android:name="com.sendbird.uikit.samples.basic.GroupChannelMainActivity"
+111-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:40:13-59
+112            android:configChanges="orientation|screenSize"
+112-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:41:13-59
+113            android:launchMode="singleTask" />
+113-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:42:13-44
+114        <activity
+114-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:43:9-46:47
+115            android:name="com.sendbird.uikit.samples.basic.openchannel.OpenChannelMainActivity"
+115-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:44:13-70
+116            android:configChanges="orientation|screenSize"
+116-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:45:13-59
+117            android:launchMode="singleTask" />
+117-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:46:13-44
+118        <activity
+118-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:48:9-51:47
+119            android:name="com.sendbird.uikit.samples.basic.openchannel.PatientRegistrationActivity"
+119-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:49:13-74
+120            android:configChanges="orientation|screenSize"
+120-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:50:13-59
+121            android:launchMode="singleTask" />
+121-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:51:13-44
+122        <activity
+122-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:55:9-57:47
+123            android:name="com.sendbird.uikit.samples.basic.BasicHomeActivity"
+123-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:56:13-52
+124            android:launchMode="singleTask" />
+124-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:57:13-44
+125        <activity
+125-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:58:9-61:69
+126            android:name="com.sendbird.uikit.samples.basic.openchannel.livestream.LiveStreamActivity"
+126-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:59:13-76
+127            android:launchMode="singleTop"
+127-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:60:13-43
+128            android:windowSoftInputMode="adjustResize|stateHidden" />
+128-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:61:13-67
+129        <activity android:name="com.sendbird.uikit.samples.basic.openchannel.PatientHome" >
+129-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:63:9-65:20
+129-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:63:19-64
+130
+131            <!-- Include any intent filters or other necessary configurations -->
+132        </activity>
+133        <activity android:name="com.sendbird.uikit.samples.basic.openchannel.livestream.PreoperationNoteActivity" >
+133-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:67:9-69:20
+133-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:67:19-88
+134
+135            <!-- Include any intent filters or other necessary configurations -->
+136        </activity>
+137        <activity android:name="com.sendbird.uikit.samples.basic.openchannel.livestream.operationnote" >
+137-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:72:9-74:20
+137-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:72:19-77
+138
+139            <!-- Include any intent filters or other necessary configurations -->
+140        </activity>
+141
+142        <!-- ai chabot activities -->
+143        <activity
+143-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:79:9-82:47
+144            android:name="com.sendbird.uikit.samples.aichatbot.AIChatBotHomeActivity"
+144-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:80:13-60
+145            android:configChanges="orientation|screenSize|keyboardHidden"
+145-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:81:13-74
+146            android:launchMode="singleTask" />
+146-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:82:13-44
+147
+148        <!-- notification activities -->
+149        <activity
+149-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:85:9-88:46
+150            android:name="com.sendbird.uikit.samples.notification.NotificationHomeActivity"
+150-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:86:13-66
+151            android:configChanges="orientation|screenSize|keyboardHidden"
+151-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:87:13-74
+152            android:launchMode="singleTask" />
+152-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:88:13-44
+153        <activity
+153-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:89:9-92:47
+154            android:name="com.sendbird.uikit.samples.notification.NotificationMainActivity"
+154-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:90:13-66
+155            android:configChanges="orientation|screenSize"
+155-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:91:13-59
+156            android:launchMode="singleTask" />
+156-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:92:13-44
+157        <activity
+157-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:93:9-96:70
+158            android:name="com.sendbird.uikit.samples.notification.NotificationLoginActivity"
+158-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:94:13-67
+159            android:launchMode="singleTop"
+159-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:95:13-43
+160            android:windowSoftInputMode="adjustResize|stateHidden" />
+160-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:96:13-67
+161
+162        <!-- customization activities -->
+163        <activity
+163-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:99:9-102:47
+164            android:name="com.sendbird.uikit.samples.customization.CustomizationHomeActivity"
+164-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:100:13-68
+165            android:configChanges="orientation|screenSize"
+165-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:101:13-59
+166            android:launchMode="singleTask" />
+166-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:102:13-44
+167
+168        <meta-data
+168-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:104:9-106:63
+169            android:name="com.google.firebase.messaging.default_notification_icon"
+169-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:105:13-83
+170            android:resource="@drawable/icon_push_lollipop" />
+170-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:106:13-60
+171        <meta-data
+171-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:107:9-109:53
+172            android:name="com.google.firebase.messaging.default_notification_color"
+172-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:108:13-84
+173            android:resource="@color/primary_300" />
+173-->C:\Users\Anish\Abi\New_Mobile_FE_test\uikit-samples\src\main\AndroidManifest.xml:109:13-50
+174
+175        <activity
+175-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:42:9-45:46
+176            android:name="com.sendbird.uikit.activities.InviteUserActivity"
+176-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:43:13-76
+177            android:configChanges="orientation|screenSize|keyboardHidden"
+177-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:44:13-74
+178            android:launchMode="singleTop" />
+178-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:45:13-43
+179        <activity
+179-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:46:9-49:46
+180            android:name="com.sendbird.uikit.activities.MemberListActivity"
+180-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:47:13-76
+181            android:configChanges="orientation|screenSize|keyboardHidden"
+181-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:48:13-74
+182            android:launchMode="singleTop" />
+182-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:49:13-43
+183        <activity
+183-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:50:9-53:46
+184            android:name="com.sendbird.uikit.activities.ChannelSettingsActivity"
+184-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:51:13-81
+185            android:configChanges="orientation|screenSize|keyboardHidden"
+185-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:52:13-74
+186            android:launchMode="singleTop" />
+186-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:53:13-43
+187        <activity
+187-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:54:9-57:46
+188            android:name="com.sendbird.uikit.activities.ChannelListActivity"
+188-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:55:13-77
+189            android:configChanges="orientation|screenSize|keyboardHidden"
+189-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:56:13-74
+190            android:launchMode="singleTop" />
+190-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:57:13-43
+191        <activity
+191-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:58:9-61:76
+192            android:name="com.sendbird.uikit.activities.ChannelActivity"
+192-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:59:13-73
+193            android:configChanges="orientation|screenSize|keyboardHidden"
+193-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:60:13-74
+194            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+194-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:61:13-73
+195        <activity
+195-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:62:9-65:46
+196            android:name="com.sendbird.uikit.activities.CreateChannelActivity"
+196-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:63:13-79
+197            android:configChanges="orientation|screenSize|keyboardHidden"
+197-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:64:13-74
+198            android:launchMode="singleTop" />
+198-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:65:13-43
+199        <activity
+199-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:66:9-69:46
+200            android:name="com.sendbird.uikit.activities.PhotoViewActivity"
+200-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:67:13-75
+201            android:configChanges="orientation|screenSize|keyboardHidden"
+201-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:68:13-74
+202            android:launchMode="singleTop" />
+202-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:69:13-43
+203        <activity
+203-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:70:9-73:46
+204            android:name="com.sendbird.uikit.activities.ModerationActivity"
+204-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:71:13-76
+205            android:configChanges="orientation|screenSize|keyboardHidden"
+205-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:72:13-74
+206            android:launchMode="singleTop" />
+206-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:73:13-43
+207        <activity
+207-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:74:9-77:46
+208            android:name="com.sendbird.uikit.activities.RegisterOperatorActivity"
+208-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:75:13-82
+209            android:configChanges="orientation|screenSize|keyboardHidden"
+209-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:76:13-74
+210            android:launchMode="singleTop" />
+210-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:77:13-43
+211        <activity
+211-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:78:9-81:46
+212            android:name="com.sendbird.uikit.activities.OperatorListActivity"
+212-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:79:13-78
+213            android:configChanges="orientation|screenSize|keyboardHidden"
+213-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:80:13-74
+214            android:launchMode="singleTop" />
+214-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:81:13-43
+215        <activity
+215-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:82:9-85:46
+216            android:name="com.sendbird.uikit.activities.BannedUserListActivity"
+216-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:83:13-80
+217            android:configChanges="orientation|screenSize|keyboardHidden"
+217-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:84:13-74
+218            android:launchMode="singleTop" />
+218-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:85:13-43
+219        <activity
+219-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:86:9-89:46
+220            android:name="com.sendbird.uikit.activities.MutedMemberListActivity"
+220-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:87:13-81
+221            android:configChanges="orientation|screenSize|keyboardHidden"
+221-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:88:13-74
+222            android:launchMode="singleTop" />
+222-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:89:13-43
+223        <activity
+223-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:90:9-93:46
+224            android:name="com.sendbird.uikit.activities.OpenChannelSettingsActivity"
+224-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:91:13-85
+225            android:configChanges="orientation|screenSize|keyboardHidden"
+225-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:92:13-74
+226            android:launchMode="singleTop" />
+226-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:93:13-43
+227        <activity
+227-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:94:9-97:46
+228            android:name="com.sendbird.uikit.activities.ParticipantListActivity"
+228-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:95:13-81
+229            android:configChanges="orientation|screenSize|keyboardHidden"
+229-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:96:13-74
+230            android:launchMode="singleTop" />
+230-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:97:13-43
+231        <activity
+231-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:98:9-102:60
+232            android:name="com.sendbird.uikit.activities.MessageSearchActivity"
+232-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:99:13-79
+233            android:configChanges="orientation|screenSize"
+233-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:100:13-59
+234            android:launchMode="singleTop"
+234-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:101:13-43
+235            android:windowSoftInputMode="stateUnchanged" />
+235-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:102:13-57
+236        <activity
+236-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:103:9-107:70
+237            android:name="com.sendbird.uikit.activities.MessageThreadActivity"
+237-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:104:13-79
+238            android:configChanges="orientation|screenSize"
+238-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:105:13-59
+239            android:launchMode="singleTop"
+239-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:106:13-43
+240            android:windowSoftInputMode="adjustResize|stateHidden" />
+240-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:107:13-67
+241        <activity
+241-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:108:9-111:46
+242            android:name="com.sendbird.uikit.activities.ChannelPushSettingActivity"
+242-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:109:13-84
+243            android:configChanges="orientation|screenSize|keyboardHidden"
+243-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:110:13-74
+244            android:launchMode="singleTop" />
+244-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:111:13-43
+245        <activity
+245-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:112:9-115:46
+246            android:name="com.sendbird.uikit.activities.OpenChannelModerationActivity"
+246-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:113:13-87
+247            android:configChanges="orientation|screenSize|keyboardHidden"
+247-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:114:13-74
+248            android:launchMode="singleTop" />
+248-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:115:13-43
+249        <activity
+249-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:116:9-119:46
+250            android:name="com.sendbird.uikit.activities.OpenChannelRegisterOperatorActivity"
+250-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:117:13-93
+251            android:configChanges="orientation|screenSize|keyboardHidden"
+251-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:118:13-74
+252            android:launchMode="singleTop" />
+252-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:119:13-43
+253        <activity
+253-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:120:9-123:46
+254            android:name="com.sendbird.uikit.activities.OpenChannelOperatorListActivity"
+254-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:121:13-89
+255            android:configChanges="orientation|screenSize|keyboardHidden"
+255-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:122:13-74
+256            android:launchMode="singleTop" />
+256-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:123:13-43
+257        <activity
+257-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:124:9-127:46
+258            android:name="com.sendbird.uikit.activities.OpenChannelMutedParticipantListActivity"
+258-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:125:13-97
+259            android:configChanges="orientation|screenSize|keyboardHidden"
+259-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:126:13-74
+260            android:launchMode="singleTop" />
+260-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:127:13-43
+261        <activity
+261-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:128:9-131:46
+262            android:name="com.sendbird.uikit.activities.OpenChannelBannedUserListActivity"
+262-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:129:13-91
+263            android:configChanges="orientation|screenSize|keyboardHidden"
+263-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:130:13-74
+264            android:launchMode="singleTop" />
+264-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:131:13-43
+265        <activity
+265-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:132:9-135:46
+266            android:name="com.sendbird.uikit.activities.CreateOpenChannelActivity"
+266-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:133:13-83
+267            android:configChanges="orientation|screenSize|keyboardHidden"
+267-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:134:13-74
+268            android:launchMode="singleTop" />
+268-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:135:13-43
+269        <activity
+269-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:136:9-139:46
+270            android:name="com.sendbird.uikit.activities.OpenChannelListActivity"
+270-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:137:13-81
+271            android:configChanges="orientation|screenSize|keyboardHidden"
+271-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:138:13-74
+272            android:launchMode="singleTop" />
+272-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:139:13-43
+273        <activity
+273-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:140:9-143:70
+274            android:name="com.sendbird.uikit.activities.OpenChannelActivity"
+274-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:141:13-77
+275            android:configChanges="orientation|screenSize|keyboardHidden"
+275-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:142:13-74
+276            android:windowSoftInputMode="adjustResize|stateHidden" />
+276-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:143:13-67
+277        <activity
+277-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:144:9-147:76
+278            android:name="com.sendbird.uikit.activities.FeedNotificationChannelActivity"
+278-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:145:13-89
+279            android:configChanges="orientation|screenSize|keyboardHidden"
+279-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:146:13-74
+280            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+280-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:147:13-73
+281        <activity
+281-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:148:9-151:76
+282            android:name="com.sendbird.uikit.activities.ChatNotificationChannelActivity"
+282-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:149:13-89
+283            android:configChanges="orientation|screenSize|keyboardHidden"
+283-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:150:13-74
+284            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+284-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:151:13-73
+285
+286        <provider
+286-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:153:9-161:20
+287            android:name="com.sendbird.uikit.model.SendbirdUIKitFileProvider"
+287-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:154:13-78
+288            android:authorities="com.sendbird.uikit.samples.sendbird.uikit.provider"
+288-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:155:13-75
+289            android:exported="false"
+289-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:156:13-37
+290            android:grantUriPermissions="true" >
+290-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:157:13-47
+291            <meta-data
+291-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:158:13-160:57
+292                android:name="android.support.FILE_PROVIDER_PATHS"
+292-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:159:17-67
+293                android:resource="@xml/sb_file_paths" />
+293-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:160:17-54
+294        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+295        <!-- suppress AndroidDomInspection -->
+296        <service
+296-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:165:9-177:19
+297            android:name="com.google.android.gms.metadata.ModuleDependencies"
+297-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:166:13-78
+298            android:enabled="false"
+298-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:167:13-36
+299            android:exported="false" >
+299-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:168:13-37
+300            <intent-filter>
+300-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:170:13-172:29
+301                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+301-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:171:17-94
+301-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:171:25-91
+302            </intent-filter>
+303
+304            <meta-data
+304-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:174:13-176:36
+305                android:name="photopicker_activity:0:required"
+305-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:175:17-63
+306                android:value="" />
+306-->[com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:176:17-33
+307        </service>
+308
+309        <activity
+309-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:47:9-53:63
+310            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+310-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:48:13-74
+311            android:clearTaskOnLaunch="true"
+311-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:49:13-45
+312            android:screenOrientation="sensorLandscape"
+312-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:50:13-56
+313            android:stateNotNeeded="true"
+313-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:51:13-42
+314            android:theme="@style/zxing_CaptureTheme"
+314-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:52:13-54
+315            android:windowSoftInputMode="stateAlwaysHidden" />
+315-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:53:13-60
+316
+317        <receiver
+317-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:29:9-36:20
+318            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+318-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:30:13-78
+319            android:exported="true"
+319-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:31:13-36
+320            android:permission="com.google.android.c2dm.permission.SEND" >
+320-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:32:13-73
+321            <intent-filter>
+321-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:33:13-35:29
+322                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+322-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:34:17-81
+322-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:34:25-78
+323            </intent-filter>
+324        </receiver>
+325        <!--
+326             FirebaseMessagingService performs security checks at runtime,
+327             but set to not exported to explicitly avoid allowing another app to call it.
+328        -->
+329        <service
+329-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:42:9-49:19
+330            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+330-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:43:13-82
+331            android:directBootAware="true"
+331-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:44:13-43
+332            android:exported="false" >
+332-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:45:13-37
+333            <intent-filter android:priority="-500" >
+333-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:46:13-48:29
+333-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:46:28-51
+334                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+334-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:47:17-78
+334-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:47:25-75
+335            </intent-filter>
+336        </service>
+337        <service
+337-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:50:9-56:19
+338            android:name="com.google.firebase.components.ComponentDiscoveryService"
+338-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:51:13-84
+339            android:directBootAware="true"
+339-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Anish\.gradle\caches\transforms-3\b90254bace91f17ae653d1385c52fe31\transformed\firebase-common-20.3.3\AndroidManifest.xml:34:13-43
+340            android:exported="false" >
+340-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:52:13-37
+341            <meta-data
+341-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:53:13-55:85
+342                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+342-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:54:17-119
+343                android:value="com.google.firebase.components.ComponentRegistrar" />
+343-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:55:17-82
 344            <meta-data
-344-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\3f7657a02522f33f65d8e86c6e63acc5\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
-345                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-345-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\3f7657a02522f33f65d8e86c6e63acc5\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
-346                android:value="cct" />
-346-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\3f7657a02522f33f65d8e86c6e63acc5\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
-347        </service>
-348        <service
-348-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\59306d2b9994ae9d8c7e8fb616d7c265\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
-349            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-349-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\59306d2b9994ae9d8c7e8fb616d7c265\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
-350            android:exported="false"
-350-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\59306d2b9994ae9d8c7e8fb616d7c265\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
-351            android:permission="android.permission.BIND_JOB_SERVICE" >
-351-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\59306d2b9994ae9d8c7e8fb616d7c265\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
-352        </service>
-353
-354        <receiver
-354-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\59306d2b9994ae9d8c7e8fb616d7c265\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
-355            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-355-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\59306d2b9994ae9d8c7e8fb616d7c265\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
-356            android:exported="false" />
-356-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\59306d2b9994ae9d8c7e8fb616d7c265\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
-357
-358        <service
-358-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:10:9-16:19
-359            android:name="com.sendbird.android.push.SendbirdFirebaseInstanceIDService"
-359-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:11:13-87
-360            android:exported="false" >
-360-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:12:13-37
-361            <intent-filter>
-361-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:13:13-15:29
-362                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-362-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:14:17-80
-362-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:14:25-77
-363            </intent-filter>
-364        </service>
-365        <service
-365-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:17:9-23:19
-366            android:name="com.sendbird.android.push.SendbirdFirebaseMessagingService"
-366-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:18:13-86
-367            android:exported="false" >
-367-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:19:13-37
-368            <intent-filter>
-368-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:46:13-48:29
-369                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-369-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:47:17-78
-369-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:47:25-75
-370            </intent-filter>
-371        </service>
-372        <service
-372-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:24:9-30:19
-373            android:name="com.sendbird.android.push.SendbirdHmsMessagingService"
-373-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:25:13-81
-374            android:exported="false" >
-374-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:26:13-37
-375            <intent-filter>
-375-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:27:13-29:29
-376                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
-376-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:28:17-81
-376-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:28:25-78
-377            </intent-filter>
-378        </service>
-379
-380        <provider
-380-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anish\.gradle\caches\transforms-3\7b77dba49c6ad77c02b757efc8675a26\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-381            android:name="androidx.startup.InitializationProvider"
-381-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anish\.gradle\caches\transforms-3\7b77dba49c6ad77c02b757efc8675a26\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-382            android:authorities="com.sendbird.uikit.samples.androidx-startup"
-382-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anish\.gradle\caches\transforms-3\7b77dba49c6ad77c02b757efc8675a26\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-383            android:exported="false" >
-383-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anish\.gradle\caches\transforms-3\7b77dba49c6ad77c02b757efc8675a26\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-384            <meta-data
-384-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anish\.gradle\caches\transforms-3\7b77dba49c6ad77c02b757efc8675a26\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-385                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-385-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anish\.gradle\caches\transforms-3\7b77dba49c6ad77c02b757efc8675a26\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-386                android:value="androidx.startup" />
-386-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anish\.gradle\caches\transforms-3\7b77dba49c6ad77c02b757efc8675a26\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-387            <meta-data
-387-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Anish\.gradle\caches\transforms-3\a96aa7ff26a7a51e316c1e38e55cf558\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-388                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-388-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Anish\.gradle\caches\transforms-3\a96aa7ff26a7a51e316c1e38e55cf558\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-389                android:value="androidx.startup" />
-389-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Anish\.gradle\caches\transforms-3\a96aa7ff26a7a51e316c1e38e55cf558\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-390        </provider>
-391    </application>
-392
-393</manifest>
+344-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Anish\.gradle\caches\transforms-3\abbb6a3cfd5bcd12ec0e25b641c65db0\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+345                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+345-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Anish\.gradle\caches\transforms-3\abbb6a3cfd5bcd12ec0e25b641c65db0\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+346                android:value="com.google.firebase.components.ComponentRegistrar" />
+346-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Anish\.gradle\caches\transforms-3\abbb6a3cfd5bcd12ec0e25b641c65db0\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+347            <meta-data
+347-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\Anish\.gradle\caches\transforms-3\a7c016a45afbb8a6c32d26e23444428a\transformed\firebase-installations-17.1.4\AndroidManifest.xml:15:13-17:85
+348                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+348-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\Anish\.gradle\caches\transforms-3\a7c016a45afbb8a6c32d26e23444428a\transformed\firebase-installations-17.1.4\AndroidManifest.xml:16:17-127
+349                android:value="com.google.firebase.components.ComponentRegistrar" />
+349-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\Anish\.gradle\caches\transforms-3\a7c016a45afbb8a6c32d26e23444428a\transformed\firebase-installations-17.1.4\AndroidManifest.xml:17:17-82
+350        </service>
+351
+352        <activity
+352-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Anish\.gradle\caches\transforms-3\5107174892babd83cae85714866c2f5d\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+353            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+353-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Anish\.gradle\caches\transforms-3\5107174892babd83cae85714866c2f5d\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+354            android:exported="false"
+354-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Anish\.gradle\caches\transforms-3\5107174892babd83cae85714866c2f5d\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+355            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+355-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Anish\.gradle\caches\transforms-3\5107174892babd83cae85714866c2f5d\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+356
+357        <provider
+357-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Anish\.gradle\caches\transforms-3\b90254bace91f17ae653d1385c52fe31\transformed\firebase-common-20.3.3\AndroidManifest.xml:25:9-30:39
+358            android:name="com.google.firebase.provider.FirebaseInitProvider"
+358-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Anish\.gradle\caches\transforms-3\b90254bace91f17ae653d1385c52fe31\transformed\firebase-common-20.3.3\AndroidManifest.xml:26:13-77
+359            android:authorities="com.sendbird.uikit.samples.firebaseinitprovider"
+359-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Anish\.gradle\caches\transforms-3\b90254bace91f17ae653d1385c52fe31\transformed\firebase-common-20.3.3\AndroidManifest.xml:27:13-72
+360            android:directBootAware="true"
+360-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Anish\.gradle\caches\transforms-3\b90254bace91f17ae653d1385c52fe31\transformed\firebase-common-20.3.3\AndroidManifest.xml:28:13-43
+361            android:exported="false"
+361-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Anish\.gradle\caches\transforms-3\b90254bace91f17ae653d1385c52fe31\transformed\firebase-common-20.3.3\AndroidManifest.xml:29:13-37
+362            android:initOrder="100" />
+362-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Anish\.gradle\caches\transforms-3\b90254bace91f17ae653d1385c52fe31\transformed\firebase-common-20.3.3\AndroidManifest.xml:30:13-36
+363
+364        <meta-data
+364-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Anish\.gradle\caches\transforms-3\6084a1e00430d5c5ea71ced5ffcf008a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+365            android:name="com.google.android.gms.version"
+365-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Anish\.gradle\caches\transforms-3\6084a1e00430d5c5ea71ced5ffcf008a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+366            android:value="@integer/google_play_services_version" />
+366-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Anish\.gradle\caches\transforms-3\6084a1e00430d5c5ea71ced5ffcf008a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+367
+368        <service
+368-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\3f7657a02522f33f65d8e86c6e63acc5\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+369            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+369-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\3f7657a02522f33f65d8e86c6e63acc5\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+370            android:exported="false" >
+370-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\3f7657a02522f33f65d8e86c6e63acc5\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+371            <meta-data
+371-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\3f7657a02522f33f65d8e86c6e63acc5\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+372                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+372-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\3f7657a02522f33f65d8e86c6e63acc5\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+373                android:value="cct" />
+373-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\3f7657a02522f33f65d8e86c6e63acc5\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+374        </service>
+375        <service
+375-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\59306d2b9994ae9d8c7e8fb616d7c265\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+376            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+376-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\59306d2b9994ae9d8c7e8fb616d7c265\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+377            android:exported="false"
+377-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\59306d2b9994ae9d8c7e8fb616d7c265\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+378            android:permission="android.permission.BIND_JOB_SERVICE" >
+378-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\59306d2b9994ae9d8c7e8fb616d7c265\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+379        </service>
+380
+381        <receiver
+381-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\59306d2b9994ae9d8c7e8fb616d7c265\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+382            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+382-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\59306d2b9994ae9d8c7e8fb616d7c265\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+383            android:exported="false" />
+383-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Anish\.gradle\caches\transforms-3\59306d2b9994ae9d8c7e8fb616d7c265\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+384
+385        <service
+385-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:10:9-16:19
+386            android:name="com.sendbird.android.push.SendbirdFirebaseInstanceIDService"
+386-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:11:13-87
+387            android:exported="false" >
+387-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:12:13-37
+388            <intent-filter>
+388-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:13:13-15:29
+389                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+389-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:14:17-80
+389-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:14:25-77
+390            </intent-filter>
+391        </service>
+392        <service
+392-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:17:9-23:19
+393            android:name="com.sendbird.android.push.SendbirdFirebaseMessagingService"
+393-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:18:13-86
+394            android:exported="false" >
+394-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:19:13-37
+395            <intent-filter>
+395-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:46:13-48:29
+396                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+396-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:47:17-78
+396-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:47:25-75
+397            </intent-filter>
+398        </service>
+399        <service
+399-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:24:9-30:19
+400            android:name="com.sendbird.android.push.SendbirdHmsMessagingService"
+400-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:25:13-81
+401            android:exported="false" >
+401-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:26:13-37
+402            <intent-filter>
+402-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:27:13-29:29
+403                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+403-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:28:17-81
+403-->[com.sendbird.sdk:sendbird-chat:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\235714405e0f1dbfc03c57462683fe99\transformed\sendbird-chat-4.13.0\AndroidManifest.xml:28:25-78
+404            </intent-filter>
+405        </service>
+406
+407        <provider
+407-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anish\.gradle\caches\transforms-3\7b77dba49c6ad77c02b757efc8675a26\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+408            android:name="androidx.startup.InitializationProvider"
+408-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anish\.gradle\caches\transforms-3\7b77dba49c6ad77c02b757efc8675a26\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+409            android:authorities="com.sendbird.uikit.samples.androidx-startup"
+409-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anish\.gradle\caches\transforms-3\7b77dba49c6ad77c02b757efc8675a26\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+410            android:exported="false" >
+410-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anish\.gradle\caches\transforms-3\7b77dba49c6ad77c02b757efc8675a26\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+411            <meta-data
+411-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anish\.gradle\caches\transforms-3\7b77dba49c6ad77c02b757efc8675a26\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+412                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+412-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anish\.gradle\caches\transforms-3\7b77dba49c6ad77c02b757efc8675a26\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+413                android:value="androidx.startup" />
+413-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anish\.gradle\caches\transforms-3\7b77dba49c6ad77c02b757efc8675a26\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+414            <meta-data
+414-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Anish\.gradle\caches\transforms-3\a96aa7ff26a7a51e316c1e38e55cf558\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+415                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+415-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Anish\.gradle\caches\transforms-3\a96aa7ff26a7a51e316c1e38e55cf558\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+416                android:value="androidx.startup" />
+416-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Anish\.gradle\caches\transforms-3\a96aa7ff26a7a51e316c1e38e55cf558\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+417        </provider>
+418    </application>
+419
+420</manifest>

@@ -13,6 +13,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Anish\.g
 MERGED from [com.github.chrisbanes:PhotoView:2.3.0] C:\Users\Anish\.gradle\caches\transforms-3\e73fbb2ce1e7e1ab9c9244267d7f4e1e\transformed\PhotoView-2.3.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Anish\.gradle\caches\transforms-3\065147f0bd3351f84199e514d61623ef\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Anish\.gradle\caches\transforms-3\04897b579291cab9a59549efa0742347\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:17:1-56:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\bb38aa9cf878cc383a9e2892fc4f07e7\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:17:1-59:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Anish\.gradle\caches\transforms-3\5107174892babd83cae85714866c2f5d\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Anish\.gradle\caches\transforms-3\261dce77d9accd19b408b79d6b6a0712\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
@@ -28,6 +30,7 @@ MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Anis
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Anish\.gradle\caches\transforms-3\3ff4ded550ab044f7f13e201373dabd1\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.6.0] C:\Users\Anish\.gradle\caches\transforms-3\bea8f2063945c32296db335af955c940\transformed\activity-1.6.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\778c278a3db8e1a58c88db26123378f6\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\7325e4ba60ac499817c6b7338119acca\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\48bb607239c3a34a1ae22c924b968486\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\f8a6b396be648cdb4815e700ae25e690\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Anish\.gradle\caches\transforms-3\88bcc1acd74be10cf8edb0230772f5e8\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
@@ -50,8 +53,11 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Anish\.gradl
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Anish\.gradle\caches\transforms-3\5283e7c3975a1d8d3027e67504650f96\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Anish\.gradle\caches\transforms-3\7b77dba49c6ad77c02b757efc8675a26\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\5372aad4beeb8eb1d4e87698a594601a\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\5bc86207a4c0bc7738741e1a9871f353\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Anish\.gradle\caches\transforms-3\030bdac00b0fff352d3787309c611cdc\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\bd8fce5d9c150efbc7e0bd31dbaae670\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Anish\.gradle\caches\transforms-3\d1b82ffca2269c9a2fb1d127540d9055\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\6546be88bef2c584ae8abaddae93d60d\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.9.0] C:\Users\Anish\.gradle\caches\transforms-3\6c350b76cfdbcfefb75ded99f6417bd7\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Anish\.gradle\caches\transforms-3\69749e927f7b61db51eea6d333a47621\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\a67af1781f2868dbc987b623d8cd7beb\transformed\gifdecoder-4.13.0\AndroidManifest.xml:2:1-11:12
@@ -106,6 +112,8 @@ MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\Anish\.gradle\cach
 MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\Anish\.gradle\caches\transforms-3\477b045c63da3b9006ce7859e3874f0a\transformed\glide-4.13.0\AndroidManifest.xml:10:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Anish\.gradle\caches\transforms-3\01b0c15aa395d6825d9e3010ab9a1005\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Anish\.gradle\caches\transforms-3\01b0c15aa395d6825d9e3010ab9a1005\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:46:5-54:19
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:46:5-54:19
 MERGED from [com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:28:5-57:19
 MERGED from [com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:28:5-57:19
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Anish\.gradle\caches\transforms-3\5107174892babd83cae85714866c2f5d\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
@@ -324,6 +332,10 @@ MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Anish\.gradl
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Anish\.gradle\caches\transforms-3\065147f0bd3351f84199e514d61623ef\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Anish\.gradle\caches\transforms-3\04897b579291cab9a59549efa0742347\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Anish\.gradle\caches\transforms-3\04897b579291cab9a59549efa0742347\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\bb38aa9cf878cc383a9e2892fc4f07e7\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\bb38aa9cf878cc383a9e2892fc4f07e7\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Anish\.gradle\caches\transforms-3\5107174892babd83cae85714866c2f5d\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
@@ -354,6 +366,8 @@ MERGED from [androidx.activity:activity:1.6.0] C:\Users\Anish\.gradle\caches\tra
 MERGED from [androidx.activity:activity:1.6.0] C:\Users\Anish\.gradle\caches\transforms-3\bea8f2063945c32296db335af955c940\transformed\activity-1.6.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\778c278a3db8e1a58c88db26123378f6\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\778c278a3db8e1a58c88db26123378f6\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\7325e4ba60ac499817c6b7338119acca\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\7325e4ba60ac499817c6b7338119acca\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\48bb607239c3a34a1ae22c924b968486\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\48bb607239c3a34a1ae22c924b968486\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\f8a6b396be648cdb4815e700ae25e690\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
@@ -398,10 +412,16 @@ MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Anish\.gradle\caches\transfo
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Anish\.gradle\caches\transforms-3\7b77dba49c6ad77c02b757efc8675a26\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\5372aad4beeb8eb1d4e87698a594601a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\5372aad4beeb8eb1d4e87698a594601a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\5bc86207a4c0bc7738741e1a9871f353\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\5bc86207a4c0bc7738741e1a9871f353\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Anish\.gradle\caches\transforms-3\030bdac00b0fff352d3787309c611cdc\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Anish\.gradle\caches\transforms-3\030bdac00b0fff352d3787309c611cdc\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\bd8fce5d9c150efbc7e0bd31dbaae670\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\bd8fce5d9c150efbc7e0bd31dbaae670\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Anish\.gradle\caches\transforms-3\d1b82ffca2269c9a2fb1d127540d9055\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Anish\.gradle\caches\transforms-3\d1b82ffca2269c9a2fb1d127540d9055\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\6546be88bef2c584ae8abaddae93d60d\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Anish\.gradle\caches\transforms-3\6546be88bef2c584ae8abaddae93d60d\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.9.0] C:\Users\Anish\.gradle\caches\transforms-3\6c350b76cfdbcfefb75ded99f6417bd7\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.9.0] C:\Users\Anish\.gradle\caches\transforms-3\6c350b76cfdbcfefb75ded99f6417bd7\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Anish\.gradle\caches\transforms-3\69749e927f7b61db51eea6d333a47621\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
@@ -464,6 +484,8 @@ ADDED from [com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transfo
 		ADDED from [com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:13:9-65
 uses-permission#android.permission.CAMERA
 ADDED from [com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:16:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:22:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:22:5-65
 	android:name
 		ADDED from [com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:16:22-62
 uses-permission#android.permission.INTERNET
@@ -770,6 +792,56 @@ ADDED from [com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transfo
 		ADDED from [com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:176:17-33
 	android:name
 		ADDED from [com.sendbird.sdk:uikit:3.12.0] C:\Users\Anish\.gradle\caches\transforms-3\e4351a1251c2bad58dc268909a1456e7\transformed\uikit-3.12.0\AndroidManifest.xml:175:17-63
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:26:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:34:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:37:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:40:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:43:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:47:9-53:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:50:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:49:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:51:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:53:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Anish\.gradle\caches\transforms-3\eb06f38e1eae45a3cfcc77856c97f5f9\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:48:13-74
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-messaging:23.2.1] C:\Users\Anish\.gradle\caches\transforms-3\d1c5bd9b83b571a2e88903f11634b598\transformed\firebase-messaging-23.2.1\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\Anish\.gradle\caches\transforms-3\242150c6581b9c11ad7bdfbe7b00d37e\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:7:5-79

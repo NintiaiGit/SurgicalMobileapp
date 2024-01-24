@@ -56,10 +56,10 @@ class PatientHome : AppCompatActivity() {
 
 
         val operationnoteButton = findViewById<EntryButton>(R.id.operationnote)
-        preoperationnoteButton.setOnClickListener {
+        operationnoteButton.setOnClickListener {
 
 
-            Log.e(TAG, "Patient hone - operation note")
+            Log.e(TAG, "Patient home - operation note")
 
 
 
@@ -74,19 +74,19 @@ class PatientHome : AppCompatActivity() {
 
 
 
-        val intraoperationfindingnoteButton = findViewById<EntryButton>(R.id.operationnote)
-        preoperationnoteButton.setOnClickListener {
-
-
-            Log.e(TAG, "Patient hone - preoperative note")
-
-
-
-            val intent = Intent(this, PreoperationNoteActivity::class.java)
-            // Pass necessary data to the next activity if needed
-            intent.putExtra("patientData", patientData)
-            startActivity(intent)
-        }
+//        val intraoperationfindingnoteButton = findViewById<EntryButton>(R.id.operationnote)
+//        preoperationnoteButton.setOnClickListener {
+//
+//
+//            Log.e(TAG, "Patient hone - preoperative note")
+//
+//
+//
+//            val intent = Intent(this, PreoperationNoteActivity::class.java)
+//            // Pass necessary data to the next activity if needed
+//            intent.putExtra("patientData", patientData)
+//            startActivity(intent)
+//        }
 
 
 
